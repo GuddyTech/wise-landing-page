@@ -22,11 +22,13 @@ img {
 .create {
     color: rgb(72, 72, 121);
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: roboto;
 }
 
 .for-forms {
     text-align: center;
+    
     
 }
 
@@ -61,6 +63,7 @@ p {
     color: white;
     font-size: 15px;  
     transition: 0.25s;
+    cursor: pointer;
 }
 
 .next:hover {
@@ -86,4 +89,40 @@ p {
 .footer-hr {
     width: 510px;
     border-top: 1px solid rgb(230, 237, 238);
+}
+
+.section {
+    margin-left: 408px ;
+        /* margin-right: 415px; */
+}
+
+.external {
+    color: red;
+    height: 50px;
+    width: 166px;
+    margin-right: 7px;
+    border: none;
+    border-radius: 3px; 
+    cursor: pointer;
+}
+
+.external:hover {
+
+    background-color:  rgb(87, 167, 233);
+    color: white;
+}
+
+.google-img {
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.facebook-img {
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.apple-img {
+    margin-left: 1px;
+    margin-top: 1px;
 }

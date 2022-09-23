@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="sign-in.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     
 
     <title> Wise Landing Page </title>
@@ -11,23 +13,35 @@
     <div>
         <img src="brand_logo.svg" alt="wise logo"/>
     </div>
-    <br> <br>
-    <hr>
-
-    <div> 
-    <h1> Create your Wise account </h1>
-    </div>
-
-    <div>
-    <form class="form">
-        <label>  First, enter your email address </label> <br>
-        <input name="email" type="password" placeholder="Your email"> 
+        <br> <br>
+        <hr class="hr">
         <br>
-        <button class="next"> Next </button>
-    </form>
-    </div>
+       
+    <!-- <div class="signin"> -->
 
-    <p> Or log in with</p>
+        <div class="create"> 
+            <h1> Create your Wise account </h1>
+        </div>
+        <br>
+
+
+        <div class="for-forms">
+            <form class="form">
+                <label class="label">  First, enter your email address </label> <br>
+                <input class="input"  name="email" type="email" placeholder="Your email" required> 
+                <br>
+                <button class="next"> Next </button>
+            </form>
+        </div>
+
+            <p class="p-or"> Or log in with </p>
+    <!-- </div> -->
+
+            <p class="p-reg"> By registering, you accept our  <a href="https://wise.com/terms-and-conditions" target="_blank"> Terms of Use </a>  and  <a href="https://wise.com/privacy-policy" target="_blank"> Private Policy </a>  </p>
+            <br>
+            <hr class="footer-hr">
+            <br>
+            <p> Already have an account? <a href="https://wise.com/login" target="_blank"> Log in </a> </p>
 
 
 </body>

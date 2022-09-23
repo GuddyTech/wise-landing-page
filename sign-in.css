@@ -1,16 +1,18 @@
 .hr {
     width: 1366px;
     margin-left: -10px;
-    border: -1px solid rgb(191, 173, 173);
+    /* border: 0.1px solid rgb(182, 186, 187);
+    border-: 10px; */
+    border-top: 1px  rgb(138, 142, 143);
 
 }
 
-.signn {
+/* .signn {
     
     justify-content: center;
     align-items: center;
     justify-items: center;
-}
+} */
 
 img {
     margin-left: 150px;
@@ -38,6 +40,15 @@ p {
     padding-left: 10px;
     margin-top: 10px;
     font-size: 15px;
+    border: 0.5px solid rgb(182, 186, 187);
+    /* border-color: red; */
+    border-radius: 3px;
+    outline: none;
+    
+}
+
+.input:focus {
+    border: 0.5px solid rgb(87, 167, 233);  
 }
 
 .next {
@@ -74,4 +85,5 @@ p {
 
 .footer-hr {
     width: 510px;
+    border-top: 1px solid rgb(230, 237, 238);
 }

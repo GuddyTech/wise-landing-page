@@ -1,5 +1,5 @@
 .hr {
-    width: 1366px;
+    width: 1350px;
     margin-left: -10px;
     /* border: 0.1px solid rgb(182, 186, 187);
     border-: 10px; */
@@ -96,7 +96,7 @@ p {
         /* margin-right: 415px; */
 }
 
-.external {
+.external-google {
     color: red;
     height: 50px;
     width: 166px;
@@ -106,9 +106,42 @@ p {
     cursor: pointer;
 }
 
-.external:hover {
+.external-google:hover {
 
     background-color:  rgb(87, 167, 233);
+    color: white;
+}
+
+.external-facebook {
+    color: red;
+    height: 50px;
+    width: 166px;
+    margin-right: 7px;
+    border: none;
+    border-radius: 3px; 
+    cursor: pointer;
+}
+
+.external-facebook:hover {
+
+    background-color:  rgb(89, 89, 180);
+    color: white;
+}
+
+.external-apple {
+    color: red;
+    height: 50px;
+    width: 166px;
+    margin-right: 7px;
+    border: none;
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.external-apple:hover {
+
+    background-color:  black;
     color: white;
 }
 
@@ -117,12 +150,24 @@ p {
     margin-top: 1px;
 }
 
+.google-img:hover {
+    filter: brightness(0) invert(1);
+}
+
 .facebook-img {
     margin-left: 1px;
     margin-top: 1px;
 }
 
+.facebook-img:hover {
+    filter: brightness(0) invert(1);
+}
+
 .apple-img {
     margin-left: 1px;
     margin-top: 1px;
+}
+
+.apple-img:hover {
+    filter: brightness(0) invert(1);
 }
